@@ -1,5 +1,5 @@
 # Blogs and Posts
-All blogs and posts are under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/). Any mention of proprietary works or existing intellectual property (e.g. photos and videos from existing companies or identities) won't be under this license.
+All blogs and posts are under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/). Any mention of proprietary works or existing intellectual property (e.g. photos and videos from existing companies or identities) may not apply.
 
 ---
 
