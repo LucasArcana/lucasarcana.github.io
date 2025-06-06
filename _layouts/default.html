@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LucasArcana</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/script.js"></script>
 </head>
 <body>
-    <h1>LucasArcana</h1>
-    <a href="_posts">Posts</a> |
-   <script src="/assets/js/script.js"></script>
+    {% include header.html %}
+    <main>
+        {{ content }}
+    </main>
 </body>
 </html>
