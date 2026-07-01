@@ -1,0 +1,94 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.topnav{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.topnav a{
+    color: #DCD6B5ff;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    border-radius: 0px;
+    background-color: #5a544bff;
+    transition: background-color 0.3s;
+}
+.topnav a:hover{
+    background-color: #E5625E;
+    color: #4f4941ff;
+}
+
+.topnav a.active{
+    background-color: #c3bfa2;
+    color: white;
+}
+
+.kofi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+
+html, body{
+    background-color: #c3bfa2;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main, footer{
+    margin: 24px auto 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .7rem;
+    text-shadow: .3rem .3rem 0 rgba(77, 73, 62,.3);
+    color: #514a38;
+    margin-left: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+
+    span {
+        margin-right: -.1rem;
+    }
+
+    small{
+        &::before{
+            content: "-";
+        }
+        font-weight: 500;
+        text-transform: none;
+        text-shadow: none;
+        letter-spacing: .4rem;
+    }
+}
+
+p{
+    margin: 0 50px 24px 0;
+    text-align: justify;
+}
