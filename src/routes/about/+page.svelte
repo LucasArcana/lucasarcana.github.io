@@ -1,1 +1,1 @@
-<h1>About - Lucas Fernandez</h1>
+<h1>About - LucasArcana</h1>
