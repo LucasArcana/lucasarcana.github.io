@@ -13,8 +13,8 @@ export default defineConfig({
 				runes: ({ filename }) => filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
 			adapter: adapter({
-				pages: 'build',
-				assets: 'build',
+				pages: 'docs',
+				assets: 'docs',
 				fallback: undefined
 			}),
 			preprocess: [mdsvex({ extensions: ['.svx', '.md'] })],

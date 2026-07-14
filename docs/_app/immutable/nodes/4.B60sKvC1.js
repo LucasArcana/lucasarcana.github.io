@@ -1,0 +1,1 @@
+import{f as e,m as t}from"../chunks/DjG6j7Mj.js";import"../chunks/xihTtKlq.js";var n=t(`<h1>Blog - LucasArcana</h1>`);function r(t){e(t,n())}export{r as component};
