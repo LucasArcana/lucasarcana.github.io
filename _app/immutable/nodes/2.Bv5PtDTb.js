@@ -1,0 +1,2 @@
+import{P as e,f as t,m as n}from"../chunks/DjG6j7Mj.js";import"../chunks/xihTtKlq.js";var r=n(`<h1>Home - LucasArcana</h1> <div><p>Welcome to my personal website. Feel free to look at 
+        some blogs or projects I worked on.</p></div>`,1);function i(n){var i=r();e(2),t(n,i)}export{i as component};
